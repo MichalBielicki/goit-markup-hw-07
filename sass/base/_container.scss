@@ -1,0 +1,48 @@
+.container {
+  width: 1200px;
+  padding: 94px 15px;
+  align-items: center;
+  margin: 0 auto;
+
+  .header & {
+    display: flex;
+    align-items: center;
+    background-color: #ffffff;
+    padding: 24px 0;
+  }
+  .hero & {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 200px 0;
+  }
+  .our-job & {
+    display: flex;
+    padding-bottom: 0;
+  }
+  .our-job-img & {
+    display: flex;
+    flex-direction: column;
+  }
+  .our-team & {
+    display: flex;
+    flex-direction: column;
+  }
+  .our-customers & {
+    display: flex;
+    flex-direction: column;
+  }
+  .footer & {
+    padding: 60px 0;
+    display: flex;
+  }
+  .portfolio & {
+    padding-top: 100px;
+    padding-bottom: 56px;
+  }
+  .all & {
+    display: flex;
+    padding-top: 0;
+    padding-bottom: 64px;
+  }
+}
